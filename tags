@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CtagsEntry	src/ctags_mcp/ctags_parser.py	/^class CtagsEntry(BaseModel):$/;"	c
+STANDARD_TAGS_NAMES	src/ctags_mcp/ctags_parser.py	/^STANDARD_TAGS_NAMES = ["tags", ".tags", "TAGS"]$/;"	v
+SymbolSearchResult	src/ctags_mcp/ctags_server.py	/^class SymbolSearchResult(BaseModel):$/;"	c
+TagsInfo	src/ctags_mcp/ctags_server.py	/^class TagsInfo(BaseModel):$/;"	c
+__all__	src/ctags_mcp/__init__.py	/^__all__ = [$/;"	v
+action	src/ctags_mcp/main.py	/^        action="version",$/;"	v
+args	src/ctags_mcp/main.py	/^    args = parser.parse_args()$/;"	v
+choices	src/ctags_mcp/main.py	/^        choices=["stdio"],$/;"	v
+ctags_detect	src/ctags_mcp/ctags_server.py	/^def ctags_detect(working_dir: Optional[str] = None) -> Dict[str, Any]:$/;"	f
+ctags_find_symbol	src/ctags_mcp/ctags_server.py	/^def ctags_find_symbol($/;"	f
+ctags_get_location	src/ctags_mcp/ctags_server.py	/^def ctags_get_location($/;"	f
+ctags_list_symbols	src/ctags_mcp/ctags_server.py	/^def ctags_list_symbols($/;"	f
+ctags_search_in_files	src/ctags_mcp/ctags_server.py	/^def ctags_search_in_files($/;"	f
+default	src/ctags_mcp/main.py	/^        default="stdio",$/;"	v
+default	src/ctags_mcp/main.py	/^        default=Path.cwd(),$/;"	v
+detect_tags_file	src/ctags_mcp/ctags_parser.py	/^def detect_tags_file(working_dir: Optional[str] = None) -> Optional[Path]:$/;"	f
+entries_to_results	src/ctags_mcp/ctags_server.py	/^def entries_to_results(entries: List[CtagsEntry]) -> List[SymbolSearchResult]:$/;"	f
+extract_language	src/ctags_mcp/ctags_parser.py	/^def extract_language(extra_fields: List[str]) -> Optional[str]:$/;"	f
+extract_line_number	src/ctags_mcp/ctags_parser.py	/^def extract_line_number(pattern: str) -> Optional[int]:$/;"	f
+extract_scope	src/ctags_mcp/ctags_parser.py	/^def extract_scope(extra_fields: List[str]) -> Optional[str]:$/;"	f
+extract_symbol_type	src/ctags_mcp/ctags_parser.py	/^def extract_symbol_type(type_info: str) -> Optional[str]:$/;"	f
+filter_by_file_pattern	src/ctags_mcp/symbol_search.py	/^def filter_by_file_pattern(entries: List[CtagsEntry], file_pattern: str) -> List[CtagsEntry]:$/;"	f
+filter_by_scope	src/ctags_mcp/symbol_search.py	/^def filter_by_scope(entries: List[CtagsEntry], scope_pattern: str) -> List[CtagsEntry]:$/;"	f
+filter_by_symbol_type	src/ctags_mcp/symbol_search.py	/^def filter_by_symbol_type(entries: List[CtagsEntry], symbol_type: str) -> List[CtagsEntry]:$/;"	f
+find_classes	src/ctags_mcp/symbol_search.py	/^def find_classes(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+find_functions	src/ctags_mcp/symbol_search.py	/^def find_functions(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+find_methods	src/ctags_mcp/symbol_search.py	/^def find_methods(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+find_symbol_by_name	src/ctags_mcp/symbol_search.py	/^def find_symbol_by_name(entries: List[CtagsEntry], symbol_name: str) -> List[CtagsEntry]:$/;"	f
+find_symbols_by_pattern	src/ctags_mcp/symbol_search.py	/^def find_symbols_by_pattern(entries: List[CtagsEntry], pattern: str, case_sensitive: bool = False) -> List[CtagsEntry]:$/;"	f
+find_variables	src/ctags_mcp/symbol_search.py	/^def find_variables(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+get_file_paths	src/ctags_mcp/symbol_search.py	/^def get_file_paths(entries: List[CtagsEntry]) -> Set[str]:$/;"	f
+get_symbol_types	src/ctags_mcp/symbol_search.py	/^def get_symbol_types(entries: List[CtagsEntry]) -> Set[str]:$/;"	f
+group_by_file	src/ctags_mcp/symbol_search.py	/^def group_by_file(entries: List[CtagsEntry]) -> Dict[str, List[CtagsEntry]]:$/;"	f
+group_by_type	src/ctags_mcp/symbol_search.py	/^def group_by_type(entries: List[CtagsEntry]) -> Dict[str, List[CtagsEntry]]:$/;"	f
+help	src/ctags_mcp/main.py	/^        help="Transport protocol to use (default: stdio)",$/;"	v
+help	src/ctags_mcp/main.py	/^        help="Working directory to search for tags file (default: current directory)",$/;"	v
+is_class	src/ctags_mcp/ctags_parser.py	/^def is_class(entry: CtagsEntry) -> bool:$/;"	f
+is_function	src/ctags_mcp/ctags_parser.py	/^def is_function(entry: CtagsEntry) -> bool:$/;"	f
+is_method	src/ctags_mcp/ctags_parser.py	/^def is_method(entry: CtagsEntry) -> bool:$/;"	f
+is_variable	src/ctags_mcp/ctags_parser.py	/^def is_variable(entry: CtagsEntry) -> bool:$/;"	f
+main	src/ctags_mcp/main.py	/^def main():$/;"	f
+mcp	src/ctags_mcp/ctags_server.py	/^mcp = FastMCP("ctags")$/;"	v
+parse_tags_file	src/ctags_mcp/ctags_parser.py	/^def parse_tags_file(tags_file: Optional[Path] = None, working_dir: Optional[str] = None) -> List[CtagsEntry]:$/;"	f
+parse_tags_line	src/ctags_mcp/ctags_parser.py	/^def parse_tags_line(line: str) -> Optional[CtagsEntry]:$/;"	f
+sample_ctags_content	src/tests/test_ctags_parser.py	/^def sample_ctags_content():$/;"	f
+sample_entries	src/tests/test_symbol_search.py	/^def sample_entries() -> List[CtagsEntry]:$/;"	f
+sample_tags_file	src/tests/test_ctags_parser.py	/^def sample_tags_file(sample_ctags_content):$/;"	f
+search_symbols	src/ctags_mcp/symbol_search.py	/^def search_symbols($/;"	f
+sort_by_file_path	src/ctags_mcp/symbol_search.py	/^def sort_by_file_path(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+sort_by_symbol_name	src/ctags_mcp/symbol_search.py	/^def sort_by_symbol_name(entries: List[CtagsEntry]) -> List[CtagsEntry]:$/;"	f
+test_ctags_entry_model	src/tests/test_ctags_parser.py	/^def test_ctags_entry_model():$/;"	f
+test_detect_tags_file	src/tests/test_ctags_parser.py	/^def test_detect_tags_file():$/;"	f
+test_extract_language	src/tests/test_ctags_parser.py	/^def test_extract_language():$/;"	f
+test_extract_line_number	src/tests/test_ctags_parser.py	/^def test_extract_line_number():$/;"	f
+test_extract_scope	src/tests/test_ctags_parser.py	/^def test_extract_scope():$/;"	f
+test_extract_symbol_type	src/tests/test_ctags_parser.py	/^def test_extract_symbol_type():$/;"	f
+test_filter_by_file_pattern	src/tests/test_symbol_search.py	/^def test_filter_by_file_pattern(sample_entries):$/;"	f
+test_filter_by_scope	src/tests/test_symbol_search.py	/^def test_filter_by_scope(sample_entries):$/;"	f
+test_filter_by_symbol_type	src/tests/test_symbol_search.py	/^def test_filter_by_symbol_type(sample_entries):$/;"	f
+test_find_classes	src/tests/test_symbol_search.py	/^def test_find_classes(sample_entries):$/;"	f
+test_find_functions	src/tests/test_symbol_search.py	/^def test_find_functions(sample_entries):$/;"	f
+test_find_methods	src/tests/test_symbol_search.py	/^def test_find_methods(sample_entries):$/;"	f
+test_find_symbol_by_name	src/tests/test_symbol_search.py	/^def test_find_symbol_by_name(sample_entries):$/;"	f
+test_find_symbols_by_pattern	src/tests/test_symbol_search.py	/^def test_find_symbols_by_pattern(sample_entries):$/;"	f
+test_find_variables	src/tests/test_symbol_search.py	/^def test_find_variables(sample_entries):$/;"	f
+test_get_file_paths	src/tests/test_symbol_search.py	/^def test_get_file_paths(sample_entries):$/;"	f
+test_get_symbol_types	src/tests/test_symbol_search.py	/^def test_get_symbol_types(sample_entries):$/;"	f
+test_group_by_file	src/tests/test_symbol_search.py	/^def test_group_by_file(sample_entries):$/;"	f
+test_group_by_type	src/tests/test_symbol_search.py	/^def test_group_by_type(sample_entries):$/;"	f
+test_is_function_helpers	src/tests/test_ctags_parser.py	/^def test_is_function_helpers():$/;"	f
+test_parse_tags_file	src/tests/test_ctags_parser.py	/^def test_parse_tags_file(sample_tags_file):$/;"	f
+test_parse_tags_file_auto_detect	src/tests/test_ctags_parser.py	/^def test_parse_tags_file_auto_detect(sample_ctags_content):$/;"	f
+test_parse_tags_file_not_found	src/tests/test_ctags_parser.py	/^def test_parse_tags_file_not_found():$/;"	f
+test_parse_tags_line	src/tests/test_ctags_parser.py	/^def test_parse_tags_line():$/;"	f
+test_search_symbols_empty_results	src/tests/test_symbol_search.py	/^def test_search_symbols_empty_results(sample_entries):$/;"	f
+test_search_symbols_exact_match	src/tests/test_symbol_search.py	/^def test_search_symbols_exact_match(sample_entries):$/;"	f
+test_search_symbols_pattern_match	src/tests/test_symbol_search.py	/^def test_search_symbols_pattern_match(sample_entries):$/;"	f
+test_sort_by_file_path	src/tests/test_symbol_search.py	/^def test_sort_by_file_path(sample_entries):$/;"	f
+test_sort_by_symbol_name	src/tests/test_symbol_search.py	/^def test_sort_by_symbol_name(sample_entries):$/;"	f
+test_validate_tags_format	src/tests/test_ctags_parser.py	/^def test_validate_tags_format(sample_tags_file):$/;"	f
+test_validate_tags_format_invalid_file	src/tests/test_ctags_parser.py	/^def test_validate_tags_format_invalid_file():$/;"	f
+type	src/ctags_mcp/main.py	/^        type=Path,$/;"	v
+validate_tags_format	src/ctags_mcp/ctags_parser.py	/^def validate_tags_format(tags_file: Path) -> Dict[str, Any]:$/;"	f
+version	src/ctags_mcp/main.py	/^        version="ctags-mcp 0.1.0",$/;"	v

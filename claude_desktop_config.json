@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "ctags": {
+      "command": "ctags-mcp"
+    }
+  }
+}
+
+// Alternative configurations:
+
+// For specific working directory:
+{
+  "mcpServers": {
+    "ctags": {
+      "command": "ctags-mcp",
+      "args": ["--working-dir", "/path/to/your/project"]
+    }
+  }
+}
+
+// For multiple projects:
+{
+  "mcpServers": {
+    "ctags-project1": {
+      "command": "ctags-mcp",
+      "args": ["--working-dir", "/path/to/project1"]
+    },
+    "ctags-project2": {
+      "command": "ctags-mcp",
+      "args": ["--working-dir", "/path/to/project2"]
+    }
+  }
+}
+
+// Legacy uv-based configuration (if installing from source):
+{
+  "mcpServers": {
+    "ctags": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/ctags-mcp",
+        "run",
+        "ctags-mcp"
+      ]
+    }
+  }
+}
